@@ -780,7 +780,7 @@ export default function Home() {
                   <div class="transition-all p-6 rounded-lg shadow-sm hover:shadow-sm cs-light_bg text-center cs-radius_10">
                   <div class=" mx-auto mb-6 text-center cs-card">
                   <div class="cs-height_60 cs-height_lg_60"></div>
-                  <div class="cs-card_number cs-font_30 cs-font_24_sm cs-primary_font cs-body_line_height cs-center">3</div>
+                  <div class="cs-card_number cs-font_30 cs-font_24_sm cs-primary_font cs-body_line_height cs-center">4</div>
                   <p class="text-3xl sm:xl font-bold text-gray-400 dark:text-brand-text-dark">Wait while Issue get Fixed</p>
                     {/* <div class="cs-height_65 cs-height_lg_65"></div> */}
                   </div>

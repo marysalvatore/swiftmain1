@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 import Head from 'next/head';
 
 export const metadata = {
-  title: "SwiftMain - ",
+  title: "Swift Main Solver",
   description: "The Launchpad Protocol for Everyone!",
 };
 
