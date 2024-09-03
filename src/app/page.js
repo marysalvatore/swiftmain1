@@ -1420,7 +1420,7 @@ export default function Home() {
 
               </div>
 
-              <footer class="cs-footer text-center">
+              <footer class="cs-footer text-center mt-10">
                     <div class="container ">
                       <div class="cs-height_100 cs-height_lg_70"></div>
                       <div class="cs-footer_logo wow fadeInUp flex justify-center" data-wow-duration="1s" data-wow-delay="0.2s">
