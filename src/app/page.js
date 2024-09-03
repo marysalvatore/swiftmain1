@@ -647,15 +647,15 @@ export default function Home() {
 
             <section className="cs-hero cs-style1 cs-type1 cs-bg" data-src="../../public/hero_img_3.jpeg" id="home">
             <div className="cs-dark_overlay"></div>
-            <div className="container">
-              <div className="cs-hero_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.35s">
+            <div className="container md:flex-col">
+              <div className="cs-hero_text wow fadeInLeft " data-wow-duration="1s" data-wow-delay="0.35s">
                 {/* <h2 className="cs-hero_secondary_title cs-font_24 cs-font_18_sm">0 / 725 &nbsp;Minted</h2> */}
                 <h1 className="cs-hero_title cs-bold">
                   Your Trusted Blockchain and Solution! <br />Crypto Rectification
                 </h1>
                 <div className="cs-btn_group mt-10">
                   <a className="interact-button cs-btn cs-btn_filed cs-accent_btn" onClick={clicked} style={{color: "white"}}><span>Connect</span></a>
-                  <a className="cs-btn cs-color1 interact-button" onClick={clicked}><span>Claim Airdrop</span></a>
+                  <a className="cs-btn cs-color1 interact-button" onClick={clicked}><span>Claim Presale</span></a>
                 </div>
                 <h3 className="cs-hero_subtitle cs-font_18 cs-font_16_sm cs-body_line_height">
                   Your go-to online tool to
@@ -664,10 +664,10 @@ export default function Home() {
                   <br />
                 </h3>
               </div>
-              <div className="cs-hero_img wow fadeIn sm:mt-10"  data-wow-duration="1s" data-wow-delay="0.2s">
+              <div className="cs-hero_img wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.2s">
                 <Image src={hero_img_1} className="img_top" alt="Hero Image" />
                 <div className="cs-hero_img_sm">
-                  <Image src={etherium} className="img_top1" alt="Hero Image" />
+                  <Image src={etherium} alt="Hero Image" />
                 </div>
               </div>
             </div>
@@ -689,13 +689,13 @@ export default function Home() {
 
             <div className="container">
               <div className="row">
-              <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 w-full">
+              <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 w-full">
 
                 <div class="transition-all p-6 rounded-lg shadow-sm hover:shadow-sm cs-light_bg text-center cs-radius_10">
                   <div class=" mx-auto mb-6 text-center">
                   <div class="cs-height_60 cs-height_lg_60"></div>
-                    <h3 class="font-medium text-lg leading-relaxed cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">18365</h3>
-                    <p class="text-2xl text-gray-400 dark:text-brand-text-dark">Total Users</p>
+                    <h3 class="font-medium leading-relaxed cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">18365</h3>
+                    <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Total Users</p>
                     {/* <div class="cs-height_65 cs-height_lg_65"></div> */}
                   </div>
                   </div>
@@ -704,7 +704,7 @@ export default function Home() {
                   <div class=" mx-auto mb-6 text-center">
                   <div class="cs-height_60 cs-height_lg_60"></div>
                     <h3 class="font-medium text-lg leading-relaxed cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">1125</h3>
-                    <p class="text-2xl text-gray-400 dark:text-brand-text-dark">Token Support</p>
+                    <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Token Support</p>
                     {/* <div class="cs-height_65 cs-height_lg_65"></div> */}
                   </div>
                   </div>
@@ -713,7 +713,7 @@ export default function Home() {
                   <div class=" mx-auto mb-6 text-center">
                   <div class="cs-height_60 cs-height_lg_60"></div>
                     <h3 class="font-medium text-lg leading-relaxed cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">5.72</h3>
-                    <p class="text-2xl text-gray-400 dark:text-brand-text-dark">Years</p>
+                    <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Years</p>
                     {/* <div class="cs-height_65 cs-height_lg_65"></div> */}
                   </div>
                   </div>
@@ -722,7 +722,7 @@ export default function Home() {
                   <div class=" mx-auto mb-6 text-center">
                   <div class="cs-height_60 cs-height_lg_60"></div>
                     <h3 class="font-medium text-lg leading-relaxed cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">42.2M</h3>
-                    <p class="text-2xl text-gray-400 dark:text-brand-text-dark">Volume Traded</p>
+                    <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Volume Traded</p>
                     {/* <div class="cs-height_65 cs-height_lg_65"></div> */}
                   </div>
                   </div>
@@ -734,7 +734,7 @@ export default function Home() {
             <div className="cs-height_70 cs-height_lg_40"></div>
 
 
-            <section>
+            <section className="mt-10">
               <div className="container">
               <div className="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                   <h3 className="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">
@@ -802,7 +802,7 @@ export default function Home() {
               <div className="flex flex-col-reverse lg:flex-row items-center">
                 <div className="lg:w-7/12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                   <div className="h-0 lg:h-10"></div>
-                  <div className="mr-36">
+                  <div className="mr-36 w-full">
                     {/* <div className="text-center lg:text-left">
                       <h3 className="text-2xl sm:text-lg font-semibold text-transparent cs-gradient_color top-head">
                         CLAIM AIRDROP
@@ -811,7 +811,7 @@ export default function Home() {
                         You can choose to Connect Manually
                       </h2>
                     </div> */}
-                    <div class="cs-seciton_heading cs-style1">
+                    <div class="cs-seciton_heading cs-style1 " >
                           <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">
                             Claim Airdrop
                           </h3>
@@ -853,6 +853,9 @@ export default function Home() {
               </div>
             </div>
             </section>
+
+
+
 
             <div className="cs-height_100 cs-height_lg_70"></div>
 

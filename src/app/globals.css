@@ -411,6 +411,8 @@ body {
   transform: rotate(0deg);
 }
 
+
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -431,6 +433,14 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
+@media (min-width: 0px) and (max-width: 990px) {
+  .cs-btn_group {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+}
+
 
 .cs-font_64 {
   font-size: 64px;
@@ -510,12 +520,14 @@ a {
 }
 
 .cs-hero_title {
-  font-size: 36px;
+  font-size: 48px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 0px) and (max-width: 990px) {
   .cs-hero_title {
-      font-size: 48px;
+      font-size: 36px;
+      text-align: center;
+
   }
 }
 
@@ -523,10 +535,6 @@ a {
   .cs-hero_title {
       font-size: 64px;
   }
-}
-
-.cs-font_64 {
-  font-size: 64px;
 }
 
 .cs-bold {
@@ -616,12 +624,6 @@ cs-dark {
   opacity: 0.5;
   background: rgb(0, 0, 0);
 }
-
-.cs-hero.cs-style1 .cs-hero_text {
-  position: relative;
-  z-index: 3;
-}
-
 
 .fadeInLeft {
   animation-name: fadeInLeft;
@@ -871,11 +873,8 @@ a {
   color: white;
   background-color: rgba(0, 82, 255, 0.2);
 }
-.cs-hero.cs-style1 .cs-hero_subtitle {
-  color: #fff;
-  margin-top: 25px;
-  margin-bottom: 0;
-}
+
+
 .cs-font_18 {
   font-size: 18px;
 }
@@ -887,7 +886,32 @@ a {
   color: #fff;
   margin-top: 25px;
   margin-bottom: 0;
+  font-size: 25px;
 }
+
+@media (min-width: 0px) and (max-width: 990px) {
+  .cs-hero.cs-style1 .cs-hero_subtitle {
+      text-align: center;
+      font-size: 16px;
+  }
+}
+
+.cs-hero_img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+.cs-hero_img {
+      top: 85%;
+      right: 30%;
+  }
+}
+
+
 .cs-accent_color {
   color: #0052FF;
 }
@@ -899,23 +923,6 @@ a {
   line-height: 1.5em;
 }
 
-.cs-hero.cs-style1 .cs-hero_img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 12%;
-  z-index: 2;
-}
-
-@media screen and (max-width: 700px) {
-  .cs-hero.cs-style1 .cs-hero_img  {
-    top: 90%;
-    right: 16%;
-  }
-
-}
-
-cs-hero_img
 
 @media screen and (min-width: 992px) {
   .cs-height_100 {
@@ -1035,6 +1042,42 @@ cs-hero_img
   border-radius: 16px;
 }
 
+.cs-font_24 {
+  font-size: 24px;
+  color: white
+}
+/* .cs-heading_line_height {
+  line-height: 1.2em;
+
+} */
+
+@media screen and (max-width: 1199px) {
+  .cs-right_space_40, .cs-right_space_150 {
+      padding-right: 0;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .cs-right_space_150 {
+      padding-right: 50px;
+  }
+}
+.cs-right_space_150 {
+  padding-right: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .cs-height_100 {
+      height: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cs-font_22_sm {
+      font-size: 22px;
+      color: white
+  }
+}
+
 .cs-m0 {
   margin: 0;
 }
@@ -1042,6 +1085,13 @@ cs-hero_img
 .cs-font_64 {
   font-size: 64px;
 }
+
+@media screen and (max-width: 991px) {
+  .cs-font_36_sm {
+      font-size: 36px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   padding: 0;
@@ -1113,10 +1163,8 @@ img, svg {
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 992px) {
-  .cs-height_100 {
-      height: 100px;
-  }
+.cs-height_100 {
+  height: 100px;
 }
 
 .fadeInUp {
@@ -1276,55 +1324,27 @@ img {
       right: 30px;
   }
 }
-.img_top{
-  width: 600px;
-  height: 600px
-}
-.img_top1{
-  width: 600px;
-  height: 600px
-}
 
-@media (min-width: 0px) and (max-width: 450px) {
-  .img_top1 {
-      width: 100px;
-      height: 100px
-  }
+
+@media (min-width: 0px) and (max-width: 699px) {
   .img_top{
     width: 200px;
-    height: 200px
+    height: 150px
   }
 }
 
-@media (min-width: 451px) and (max-width: 640px) {
-  .img_top1 {
-      width: 400px;
-      height: 400px
-  }
+@media (min-width: 700px) and (max-width: 1199px) {
   .img_top{
-    width: 400px;
-    height: 400px
+    width: 350px;
+    height: 280px
   }
 }
 
-@media (min-width: 641px) and (max-width: 768px) {
-  .img_top1 {
-      width: 500px;
-      height: 500px
-  }
-  .img_top{
-    width: 500px;
-      height: 500px
-  }
-}
 
-@media (min-width: 1024px) {
-  .img_top1{
-     width: 600px;
-     height: 600px
-  }
-  .img_top{
-    width: 600px;
-    height: 600px
+
+
+@media screen and (max-width: 1199px) {
+  .cs-hero.cs-style1 .cs-hero_img_sm {
+      max-width: 120px;
   }
 }
