@@ -665,7 +665,7 @@ export default function Home() {
                 </h3>
               </div>
               <div className="cs-hero_img wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.2s">
-                <Image src={hero_img_1} className="img_top" alt="Hero Image" />
+                <Image src={hero_img_1}  alt="Hero Image" />
                 <div className="cs-hero_img_sm">
                   <Image src={etherium} alt="Hero Image" />
                 </div>
@@ -688,7 +688,7 @@ export default function Home() {
             <div className="cs-height_100 cs-height_lg_70"></div>
 
             <div className="container">
-              <div className="row">
+              <div className="row align-center">
               <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 w-full">
 
                 <div class="transition-all p-6 rounded-lg shadow-sm hover:shadow-sm cs-light_bg text-center cs-radius_10">
