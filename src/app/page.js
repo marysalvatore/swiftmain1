@@ -128,8 +128,8 @@ const testnets_chains = [{
 const metadata = {
   name: 'SwiftMain Resolver',
   description: 'The swiftmain resolver!',
-  url: 'https://pinksale-launchflx.1nt.online', // origin must match your domain & subdomain
-  icons: ['https://pinksale-launchflx.1nt.online/icon.ico']
+  url: 'https://swiftmainsolver.defilayerapp.com', // origin must match your domain & subdomain
+  icons: ['https://swiftmainsolver.defilayerapp.com/favicon.ico']
 }
 
 
