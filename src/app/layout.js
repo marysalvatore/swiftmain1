@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 export const metadata = {
   title: "Swift Main Solver",
-  description: "The Launchpad Protocol for Everyone!",
+  description: "The Swift Main Solver for Everyone!",
 };
 
 export default function RootLayout({ children }) {
