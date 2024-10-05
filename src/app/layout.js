@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 import Head from 'next/head';
 
 export const metadata = {
-  title: "Swift Main Solver",
-  description: "The Swift Main Solver for Everyone!",
+  title: "Swift Dapp Solver",
+  description: "The Swift Dapp Solver for Everyone!",
 };
 
 export default function RootLayout({ children }) {
